@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC71B8591F8A6FA800F37199 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC71B8581F8A6FA800F37199 /* SplashViewController.swift */; };
+		CCD3B9451F89E7AD003AA0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3B9441F89E7AD003AA0E2 /* AppDelegate.swift */; };
+		CCD3B9471F89E7AD003AA0E2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD3B9461F89E7AD003AA0E2 /* art.scnassets */; };
+		CCD3B9491F89E7AD003AA0E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3B9481F89E7AD003AA0E2 /* ViewController.swift */; };
+		CCD3B94C1F89E7AD003AA0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD3B94A1F89E7AD003AA0E2 /* Main.storyboard */; settings = {ASSET_TAGS = (main, ); }; };
+		CCD3B94E1F89E7AD003AA0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD3B94D1F89E7AD003AA0E2 /* Assets.xcassets */; };
+		CCD3B9511F89E7AD003AA0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD3B94F1F89E7AD003AA0E2 /* LaunchScreen.storyboard */; };
+		CCD3B95C1F89E7AD003AA0E2 /* adidas_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3B95B1F89E7AD003AA0E2 /* adidas_challengeTests.swift */; };
+		CCD3B9671F89E7AD003AA0E2 /* adidas_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3B9661F89E7AD003AA0E2 /* adidas_challengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD3B9581F89E7AD003AA0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD3B9391F89E7AD003AA0E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD3B9401F89E7AD003AA0E2;
+			remoteInfo = "adidas challenge";
+		};
+		CCD3B9631F89E7AD003AA0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD3B9391F89E7AD003AA0E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD3B9401F89E7AD003AA0E2;
+			remoteInfo = "adidas challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC71B8581F8A6FA800F37199 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CCD3B9411F89E7AD003AA0E2 /* adidas challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adidas challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD3B9441F89E7AD003AA0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCD3B9461F89E7AD003AA0E2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CCD3B9481F89E7AD003AA0E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCD3B94B1F89E7AD003AA0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD3B94D1F89E7AD003AA0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD3B9501F89E7AD003AA0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD3B9521F89E7AD003AA0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD3B9571F89E7AD003AA0E2 /* adidas challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adidas challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD3B95B1F89E7AD003AA0E2 /* adidas_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adidas_challengeTests.swift; sourceTree = "<group>"; };
+		CCD3B95D1F89E7AD003AA0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD3B9621F89E7AD003AA0E2 /* adidas challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adidas challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD3B9661F89E7AD003AA0E2 /* adidas_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adidas_challengeUITests.swift; sourceTree = "<group>"; };
+		CCD3B9681F89E7AD003AA0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD3B93E1F89E7AD003AA0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD3B9541F89E7AD003AA0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD3B95F1F89E7AD003AA0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD3B9381F89E7AD003AA0E2 = {
+			isa = PBXGroup;
+			children = (
+				CCD3B9431F89E7AD003AA0E2 /* adidas challenge */,
+				CCD3B95A1F89E7AD003AA0E2 /* adidas challengeTests */,
+				CCD3B9651F89E7AD003AA0E2 /* adidas challengeUITests */,
+				CCD3B9421F89E7AD003AA0E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD3B9421F89E7AD003AA0E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD3B9411F89E7AD003AA0E2 /* adidas challenge.app */,
+				CCD3B9571F89E7AD003AA0E2 /* adidas challengeTests.xctest */,
+				CCD3B9621F89E7AD003AA0E2 /* adidas challengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD3B9431F89E7AD003AA0E2 /* adidas challenge */ = {
+			isa = PBXGroup;
+			children = (
+				CCD3B9441F89E7AD003AA0E2 /* AppDelegate.swift */,
+				CCD3B9461F89E7AD003AA0E2 /* art.scnassets */,
+				CCD3B9481F89E7AD003AA0E2 /* ViewController.swift */,
+				CCD3B94A1F89E7AD003AA0E2 /* Main.storyboard */,
+				CC71B8581F8A6FA800F37199 /* SplashViewController.swift */,
+				CCD3B94D1F89E7AD003AA0E2 /* Assets.xcassets */,
+				CCD3B94F1F89E7AD003AA0E2 /* LaunchScreen.storyboard */,
+				CCD3B9521F89E7AD003AA0E2 /* Info.plist */,
+			);
+			path = "adidas challenge";
+			sourceTree = "<group>";
+		};
+		CCD3B95A1F89E7AD003AA0E2 /* adidas challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD3B95B1F89E7AD003AA0E2 /* adidas_challengeTests.swift */,
+				CCD3B95D1F89E7AD003AA0E2 /* Info.plist */,
+			);
+			path = "adidas challengeTests";
+			sourceTree = "<group>";
+		};
+		CCD3B9651F89E7AD003AA0E2 /* adidas challengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD3B9661F89E7AD003AA0E2 /* adidas_challengeUITests.swift */,
+				CCD3B9681F89E7AD003AA0E2 /* Info.plist */,
+			);
+			path = "adidas challengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD3B9401F89E7AD003AA0E2 /* adidas challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD3B96B1F89E7AD003AA0E2 /* Build configuration list for PBXNativeTarget "adidas challenge" */;
+			buildPhases = (
+				CCD3B93D1F89E7AD003AA0E2 /* Sources */,
+				CCD3B93E1F89E7AD003AA0E2 /* Frameworks */,
+				CCD3B93F1F89E7AD003AA0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "adidas challenge";
+			productName = "adidas challenge";
+			productReference = CCD3B9411F89E7AD003AA0E2 /* adidas challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD3B9561F89E7AD003AA0E2 /* adidas challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD3B96E1F89E7AD003AA0E2 /* Build configuration list for PBXNativeTarget "adidas challengeTests" */;
+			buildPhases = (
+				CCD3B9531F89E7AD003AA0E2 /* Sources */,
+				CCD3B9541F89E7AD003AA0E2 /* Frameworks */,
+				CCD3B9551F89E7AD003AA0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD3B9591F89E7AD003AA0E2 /* PBXTargetDependency */,
+			);
+			name = "adidas challengeTests";
+			productName = "adidas challengeTests";
+			productReference = CCD3B9571F89E7AD003AA0E2 /* adidas challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD3B9611F89E7AD003AA0E2 /* adidas challengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD3B9711F89E7AD003AA0E2 /* Build configuration list for PBXNativeTarget "adidas challengeUITests" */;
+			buildPhases = (
+				CCD3B95E1F89E7AD003AA0E2 /* Sources */,
+				CCD3B95F1F89E7AD003AA0E2 /* Frameworks */,
+				CCD3B9601F89E7AD003AA0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD3B9641F89E7AD003AA0E2 /* PBXTargetDependency */,
+			);
+			name = "adidas challengeUITests";
+			productName = "adidas challengeUITests";
+			productReference = CCD3B9621F89E7AD003AA0E2 /* adidas challengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD3B9391F89E7AD003AA0E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					main,
+				);
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Fernando Aliaga";
+				TargetAttributes = {
+					CCD3B9401F89E7AD003AA0E2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CCD3B9561F89E7AD003AA0E2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCD3B9401F89E7AD003AA0E2;
+					};
+					CCD3B9611F89E7AD003AA0E2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCD3B9401F89E7AD003AA0E2;
+					};
+				};
+			};
+			buildConfigurationList = CCD3B93C1F89E7AD003AA0E2 /* Build configuration list for PBXProject "adidas challenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD3B9381F89E7AD003AA0E2;
+			productRefGroup = CCD3B9421F89E7AD003AA0E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD3B9401F89E7AD003AA0E2 /* adidas challenge */,
+				CCD3B9561F89E7AD003AA0E2 /* adidas challengeTests */,
+				CCD3B9611F89E7AD003AA0E2 /* adidas challengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD3B93F1F89E7AD003AA0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD3B9471F89E7AD003AA0E2 /* art.scnassets in Resources */,
+				CCD3B9511F89E7AD003AA0E2 /* LaunchScreen.storyboard in Resources */,
+				CCD3B94E1F89E7AD003AA0E2 /* Assets.xcassets in Resources */,
+				CCD3B94C1F89E7AD003AA0E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD3B9551F89E7AD003AA0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD3B9601F89E7AD003AA0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD3B93D1F89E7AD003AA0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC71B8591F8A6FA800F37199 /* SplashViewController.swift in Sources */,
+				CCD3B9491F89E7AD003AA0E2 /* ViewController.swift in Sources */,
+				CCD3B9451F89E7AD003AA0E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD3B9531F89E7AD003AA0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD3B95C1F89E7AD003AA0E2 /* adidas_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD3B95E1F89E7AD003AA0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD3B9671F89E7AD003AA0E2 /* adidas_challengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD3B9591F89E7AD003AA0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD3B9401F89E7AD003AA0E2 /* adidas challenge */;
+			targetProxy = CCD3B9581F89E7AD003AA0E2 /* PBXContainerItemProxy */;
+		};
+		CCD3B9641F89E7AD003AA0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD3B9401F89E7AD003AA0E2 /* adidas challenge */;
+			targetProxy = CCD3B9631F89E7AD003AA0E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD3B94A1F89E7AD003AA0E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD3B94B1F89E7AD003AA0E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD3B94F1F89E7AD003AA0E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD3B9501F89E7AD003AA0E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD3B9691F89E7AD003AA0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCD3B96A1F89E7AD003AA0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD3B96C1F89E7AD003AA0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Y9M29274;
+				INFOPLIST_FILE = "adidas challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adidas.adidas-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD3B96D1F89E7AD003AA0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Y9M29274;
+				INFOPLIST_FILE = "adidas challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adidas.adidas-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCD3B96F1F89E7AD003AA0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Y9M29274;
+				INFOPLIST_FILE = "adidas challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adidas.adidas-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adidas challenge.app/adidas challenge";
+			};
+			name = Debug;
+		};
+		CCD3B9701F89E7AD003AA0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Y9M29274;
+				INFOPLIST_FILE = "adidas challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adidas.adidas-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adidas challenge.app/adidas challenge";
+			};
+			name = Release;
+		};
+		CCD3B9721F89E7AD003AA0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Y9M29274;
+				INFOPLIST_FILE = "adidas challengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adidas.adidas-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "adidas challenge";
+			};
+			name = Debug;
+		};
+		CCD3B9731F89E7AD003AA0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Y9M29274;
+				INFOPLIST_FILE = "adidas challengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adidas.adidas-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "adidas challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD3B93C1F89E7AD003AA0E2 /* Build configuration list for PBXProject "adidas challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD3B9691F89E7AD003AA0E2 /* Debug */,
+				CCD3B96A1F89E7AD003AA0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD3B96B1F89E7AD003AA0E2 /* Build configuration list for PBXNativeTarget "adidas challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD3B96C1F89E7AD003AA0E2 /* Debug */,
+				CCD3B96D1F89E7AD003AA0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD3B96E1F89E7AD003AA0E2 /* Build configuration list for PBXNativeTarget "adidas challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD3B96F1F89E7AD003AA0E2 /* Debug */,
+				CCD3B9701F89E7AD003AA0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD3B9711F89E7AD003AA0E2 /* Build configuration list for PBXNativeTarget "adidas challengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD3B9721F89E7AD003AA0E2 /* Debug */,
+				CCD3B9731F89E7AD003AA0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD3B9391F89E7AD003AA0E2 /* Project object */;
+}
