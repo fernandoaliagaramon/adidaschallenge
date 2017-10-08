@@ -100,7 +100,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     // Conection animation
     func startBouncing(from: Int, to: Int) {
         var ballNode = SCNNode()
-        ballNode = make2dNode(image: #imageLiteral(resourceName: "ball"), width: 0.01, height: 0.01)
+        ballNode = make2dNode(image: #imageLiteral(resourceName: "ball"), width: 0.02, height: 0.02)
         
         let first = anchors[from]
         let last = anchors[to]
