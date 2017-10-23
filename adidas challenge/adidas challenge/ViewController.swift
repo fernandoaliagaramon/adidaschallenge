@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ARKit2d
 //
-//  Created by Andrew Seeley on 5/7/17.
-//  Copyright © 2017 Seemu. All rights reserved.
+//  Created by Fernando Aliaga on 8/10/17.
+//  
 //
 import UIKit
 import ARKit
